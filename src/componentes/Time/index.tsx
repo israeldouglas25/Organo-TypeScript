@@ -4,7 +4,7 @@ import Colaborador from '../Colaborador'
 import './time.css'
 import hexToRgba from 'hex-to-rgba';
 
-interface TimeProps { 
+interface TimeProps {
     time: ITime
     colaboradores: IColaborador[]
     aoDeletar: (colaborador: string) => void
